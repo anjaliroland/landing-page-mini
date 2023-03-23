@@ -53,7 +53,7 @@ header {
 
 footer {
     position: absolute;
-    margin-top: 0;
+    margin-top: 8px;
     bottom: 0;
     border-bottom: 10px solid goldenrod;
 }
@@ -113,6 +113,8 @@ button {
 }
 
 #contact-form p {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 5px;
 }
