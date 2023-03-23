@@ -27,9 +27,10 @@ In this mini-project, we were tasked with building a landing page using HTML and
 
 ## Usage
 
+![screenshot](./assets/images/screenshot.png)
 
 ## Links
 
-Deployed Landing Page: 
+Deployed Landing Page: https://anjaliroland.github.io/landing-page-mini/
 
-Github Repository: 
+Github Repository: https://github.com/anjaliroland/landing-page-mini
