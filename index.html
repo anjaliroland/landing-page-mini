@@ -8,39 +8,45 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <!-- header & nav -->
+    <!-- header/nav -->
     <header>
         <h1>100 Acre Wood Book Club</h1>
-        <ul>
+        <ul class="text-right">
             <li><a href="https://github.com/anjaliroland">Github</a></li>
             <li><a href="https://www.google.com/search?q=100+acre+wood&source=hp&ei=FGYbZMK0PJHg9APpoaOYBQ&iflsig=AK50M_UAAAAAZBt0JUNu3wZvA0JoEQXokAQ4wXZGIuTw&ved=0ahUKEwjCjpeTsfD9AhURMH0KHenQCFMQ4dUDCAs&uact=5&oq=100+acre+wood&gs_lcp=Cgdnd3Mtd2l6EAMyCwgAEIAEELEDEIMBMgsILhCABBDHARCvATILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDIFCAAQgAQyCwgAEIAEELEDEIMBMgUIABCABDIFCAAQgAQyBQgAEIAEOggILhCABBCxAzoICAAQgAQQsQM6DgguEIAEELEDEMcBENEDOggILhCABBDUAjoLCC4QgAQQsQMQgwE6CAgAELEDEIMBUABY8htgyB9oAHAAeACAAWSIAdYHkgEEMTIuMZgBAKABAQ&sclient=gws-wiz">About</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
-    <!-- main -->
     <main>
-
         <!-- image section -->
-        <section class="photo">
-            <figure>
-                <img src="./assets/images/hundredacre-roundtable.jpeg" alt="Rabbit, Tigger, and Pooh drinking tea around a table">
-                <figcaption>Founding members Rabbit, Tigger, and Pooh dicussing the latest book club book.</figcaption>
-                <p> <em>Photo by Piglet</em></p>
-            </figure>
-        </section>
+         <figure class="text-center">
+            <img src="./assets/images/hundredacre-roundtable.jpeg" alt="Rabbit, Tigger, and Pooh drinking tea around a table">                
+            <figcaption class="text-center">Founding members Rabbit, Tigger, and Pooh dicussing the latest book club book.</figcaption>
+            <p><em>Photo by Piglet</em></p>
+        </figure>
         <!-- contact section -->
-        <section class="contact-form">
-            <p><strong>Fill out the form below to join today!</strong></p>
-            <form id="contact">
-                <label for="name">Name: <input type="text" id="name" name="name"></label>
-                <label for="email">Email: <input type="text" name="email" id="email"></label>
-                <button id="submit">Submit</button>
+        <section id="contact-form">
+            <p class="text-center"><strong>Fill out the form below to join today!</strong></p>
+            <form>
+                <ul>
+                    <li>
+                        <label class="text-right" for="name">Name:</label>
+                        <input type="text" id="name" name="user-name">
+                    </li>
+                    <li>
+                        <label class="text-right" for="email">Email:</label>
+                        <input type="text" id="email" name="user-email">
+                    </li> 
+                </ul>
+                <div class="text-center">
+                    <button type="submit">Submit</button>
+                </div>
             </form>
         </section>
 
     </main>
     <!-- footer -->
-    <footer>
+    <footer class="text-center">
         <h4>@Christopher Robin Productions</h4>
     </footer>
 </body>
